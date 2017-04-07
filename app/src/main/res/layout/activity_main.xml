@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#559999"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.keyss.multilinenoteedit.MainActivity">
+
+    <ImageView
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/paper"
+        />
+
+    <io.keyss.multilinenoteedit.MultiLineNoteEditText
+        android:background="@null"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:gravity="top"
+        android:layout_marginTop="72dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="在此写下悄悄话"
+        android:lineSpacingExtra="1dp"
+        android:minLines="5"
+        android:textCursorDrawable="@drawable/cursor_drawable"
+        />
+
+</RelativeLayout>
